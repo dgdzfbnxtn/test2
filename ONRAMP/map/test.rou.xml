@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 03/29/22 10:56:30 by Eclipse SUMO netedit Version 1.8.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <output>
+        <output-file value="G:\RL%20code\freeway%20onramp\onramp.net.xml"/>
+    </output>
+
+    <processing>
+        <offset.disable-normalization value="true"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+    </junctions>
+
+    <netedit>
+        <route-files value="G:\RL%20code\freeway%20onramp\onramp.rou.xml"/>
+    </netedit>
+
+    <report>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<routes>
+    <vType id="auto" vClass="passenger" length="5" maxspeed="35"/>
+    <route id="route" edges="gneE4 gneE5 gneE6"/>
+    <vehicle id="vehicle_1" type="auto" route="route" depart="2" departLane="1" departPos="0" color="0, 1, 0" departSpeed="30"/>
+    <vehicle id="vehicle_2" type="auto" route="route" depart="3" departLane="1" departPos="0" color="1, 0, 0" departSpeed="30"/>
+</routes>
