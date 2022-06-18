@@ -43,7 +43,6 @@ class Environment(object):
                 total_step += 1
                 states = next_states
 
-
             episodes_rewards_list.append(rewards_all)
 
             timesteps_list.append(time_step)
